@@ -1,0 +1,6 @@
+C:\Users\epita\Documents\prog\tps\TP7\lipogramme\lipogramme\bin\Debug\lipogramme.exe.config
+C:\Users\epita\Documents\prog\tps\TP7\lipogramme\lipogramme\bin\Debug\lipogramme.exe
+C:\Users\epita\Documents\prog\tps\TP7\lipogramme\lipogramme\bin\Debug\lipogramme.pdb
+C:\Users\epita\Documents\prog\tps\TP7\lipogramme\lipogramme\obj\Debug\lipogramme.csprojResolveAssemblyReference.cache
+C:\Users\epita\Documents\prog\tps\TP7\lipogramme\lipogramme\obj\Debug\lipogramme.exe
+C:\Users\epita\Documents\prog\tps\TP7\lipogramme\lipogramme\obj\Debug\lipogramme.pdb

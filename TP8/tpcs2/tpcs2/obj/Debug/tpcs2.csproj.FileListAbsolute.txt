@@ -1,0 +1,12 @@
+C:\Users\epita\Desktop\Florian\tpcs2\tpcs2\bin\Debug\tpcs2.exe.config
+C:\Users\epita\Desktop\Florian\tpcs2\tpcs2\bin\Debug\tpcs2.exe
+C:\Users\epita\Desktop\Florian\tpcs2\tpcs2\bin\Debug\tpcs2.pdb
+C:\Users\epita\Desktop\Florian\tpcs2\tpcs2\obj\Debug\tpcs2.csprojResolveAssemblyReference.cache
+C:\Users\epita\Desktop\Florian\tpcs2\tpcs2\obj\Debug\tpcs2.exe
+C:\Users\epita\Desktop\Florian\tpcs2\tpcs2\obj\Debug\tpcs2.pdb
+C:\Users\epita\Documents\prog\tps\TP8\tpcs2\tpcs2\bin\Debug\tpcs2.exe.config
+C:\Users\epita\Documents\prog\tps\TP8\tpcs2\tpcs2\obj\Debug\tpcs2.exe
+C:\Users\epita\Documents\prog\tps\TP8\tpcs2\tpcs2\obj\Debug\tpcs2.pdb
+C:\Users\epita\Documents\prog\tps\TP8\tpcs2\tpcs2\bin\Debug\tpcs2.exe
+C:\Users\epita\Documents\prog\tps\TP8\tpcs2\tpcs2\bin\Debug\tpcs2.pdb
+C:\Users\epita\Documents\prog\tps\TP8\tpcs2\tpcs2\obj\Debug\tpcs2.csprojResolveAssemblyReference.cache

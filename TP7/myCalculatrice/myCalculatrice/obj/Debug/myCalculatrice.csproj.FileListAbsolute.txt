@@ -1,0 +1,6 @@
+C:\Users\epita\Documents\prog\tps\TP7\myCalculatrice\myCalculatrice\bin\Debug\myCalculatrice.exe.config
+C:\Users\epita\Documents\prog\tps\TP7\myCalculatrice\myCalculatrice\bin\Debug\myCalculatrice.exe
+C:\Users\epita\Documents\prog\tps\TP7\myCalculatrice\myCalculatrice\bin\Debug\myCalculatrice.pdb
+C:\Users\epita\Documents\prog\tps\TP7\myCalculatrice\myCalculatrice\obj\Debug\myCalculatrice.csprojResolveAssemblyReference.cache
+C:\Users\epita\Documents\prog\tps\TP7\myCalculatrice\myCalculatrice\obj\Debug\myCalculatrice.exe
+C:\Users\epita\Documents\prog\tps\TP7\myCalculatrice\myCalculatrice\obj\Debug\myCalculatrice.pdb

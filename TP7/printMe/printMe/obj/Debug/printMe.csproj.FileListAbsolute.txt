@@ -1,0 +1,6 @@
+C:\Users\epita\Documents\prog\tps\TP7\printMe\printMe\bin\Debug\printMe.exe.config
+C:\Users\epita\Documents\prog\tps\TP7\printMe\printMe\bin\Debug\printMe.exe
+C:\Users\epita\Documents\prog\tps\TP7\printMe\printMe\bin\Debug\printMe.pdb
+C:\Users\epita\Documents\prog\tps\TP7\printMe\printMe\obj\Debug\printMe.csprojResolveAssemblyReference.cache
+C:\Users\epita\Documents\prog\tps\TP7\printMe\printMe\obj\Debug\printMe.exe
+C:\Users\epita\Documents\prog\tps\TP7\printMe\printMe\obj\Debug\printMe.pdb

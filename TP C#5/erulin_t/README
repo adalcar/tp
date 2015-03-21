@@ -1,0 +1,5 @@
+j'ai ajoute un boss qui spawn chaque fois que le nombre d'ennemis detruits depasse 50 (vous pouvez le spawner en appuyant sur esc)
+ses tirs immobilisent le joueur pendant un certain temps (des accolades apparaissent autours du joueur)
+la difference entre les niveaux est peu notable d'un niveau a l'autre (mais essayez 1 puis 100 direct)
+!!! je n'ai pas gere l'erreur dans le menu de debut, svp entrez juste des entiers
+il est quand meme a noter que les informations quant a la partie a faire soi-meme etaient assez peu explicites

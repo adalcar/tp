@@ -1,0 +1,6 @@
+C:\Users\epita\Documents\prog\tps\TP C#5\erulin_t\SpaceInvader\SpaceInvader\bin\Debug\SpaceInvader.exe.config
+C:\Users\epita\Documents\prog\tps\TP C#5\erulin_t\SpaceInvader\SpaceInvader\bin\Debug\SpaceInvader.exe
+C:\Users\epita\Documents\prog\tps\TP C#5\erulin_t\SpaceInvader\SpaceInvader\bin\Debug\SpaceInvader.pdb
+C:\Users\epita\Documents\prog\tps\TP C#5\erulin_t\SpaceInvader\SpaceInvader\obj\Debug\SpaceInvader.csprojResolveAssemblyReference.cache
+C:\Users\epita\Documents\prog\tps\TP C#5\erulin_t\SpaceInvader\SpaceInvader\obj\Debug\SpaceInvader.exe
+C:\Users\epita\Documents\prog\tps\TP C#5\erulin_t\SpaceInvader\SpaceInvader\obj\Debug\SpaceInvader.pdb

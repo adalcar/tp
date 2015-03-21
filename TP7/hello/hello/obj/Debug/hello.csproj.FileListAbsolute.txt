@@ -1,0 +1,6 @@
+C:\Users\epita\Documents\prog\tps\TP7\hello\hello\bin\Debug\hello.exe.config
+C:\Users\epita\Documents\prog\tps\TP7\hello\hello\bin\Debug\hello.exe
+C:\Users\epita\Documents\prog\tps\TP7\hello\hello\bin\Debug\hello.pdb
+C:\Users\epita\Documents\prog\tps\TP7\hello\hello\obj\Debug\hello.csprojResolveAssemblyReference.cache
+C:\Users\epita\Documents\prog\tps\TP7\hello\hello\obj\Debug\hello.exe
+C:\Users\epita\Documents\prog\tps\TP7\hello\hello\obj\Debug\hello.pdb

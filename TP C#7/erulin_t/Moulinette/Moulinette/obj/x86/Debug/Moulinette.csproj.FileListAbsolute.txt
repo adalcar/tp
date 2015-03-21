@@ -1,0 +1,5 @@
+C:\Users\epita\Documents\prog\tps\TP C#7\erulin_t\Moulinette\Moulinette\bin\Debug\Moulinette.exe
+C:\Users\epita\Documents\prog\tps\TP C#7\erulin_t\Moulinette\Moulinette\bin\Debug\Moulinette.pdb
+C:\Users\epita\Documents\prog\tps\TP C#7\erulin_t\Moulinette\Moulinette\obj\x86\Debug\Moulinette.csprojResolveAssemblyReference.cache
+C:\Users\epita\Documents\prog\tps\TP C#7\erulin_t\Moulinette\Moulinette\obj\x86\Debug\Moulinette.exe
+C:\Users\epita\Documents\prog\tps\TP C#7\erulin_t\Moulinette\Moulinette\obj\x86\Debug\Moulinette.pdb

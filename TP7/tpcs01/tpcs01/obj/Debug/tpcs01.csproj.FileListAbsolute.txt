@@ -1,0 +1,6 @@
+C:\Users\epita\Documents\prog\tps\TP7\tpcs01\tpcs01\bin\Debug\tpcs01.exe.config
+C:\Users\epita\Documents\prog\tps\TP7\tpcs01\tpcs01\bin\Debug\tpcs01.exe
+C:\Users\epita\Documents\prog\tps\TP7\tpcs01\tpcs01\bin\Debug\tpcs01.pdb
+C:\Users\epita\Documents\prog\tps\TP7\tpcs01\tpcs01\obj\Debug\tpcs01.csprojResolveAssemblyReference.cache
+C:\Users\epita\Documents\prog\tps\TP7\tpcs01\tpcs01\obj\Debug\tpcs01.exe
+C:\Users\epita\Documents\prog\tps\TP7\tpcs01\tpcs01\obj\Debug\tpcs01.pdb

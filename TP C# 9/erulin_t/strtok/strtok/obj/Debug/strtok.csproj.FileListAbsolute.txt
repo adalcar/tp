@@ -1,0 +1,9 @@
+C:\Users\epita\Documents\prog\tps\TP C# 8\rendu-tpcs-erulin_t\strtok\strtok\bin\Debug\strtok.exe.config
+C:\Users\epita\Documents\prog\tps\TP C# 8\rendu-tpcs-erulin_t\strtok\strtok\obj\Debug\strtok.csprojResolveAssemblyReference.cache
+C:\Users\epita\Documents\prog\tps\TP C# 8\rendu-tpcs-erulin_t\strtok\strtok\bin\Debug\strtok.exe
+C:\Users\epita\Documents\prog\tps\TP C# 8\rendu-tpcs-erulin_t\strtok\strtok\bin\Debug\strtok.pdb
+C:\Users\epita\Documents\prog\tps\TP C# 8\rendu-tpcs-erulin_t\strtok\strtok\obj\Debug\strtok.exe
+C:\Users\epita\Documents\prog\tps\TP C# 8\rendu-tpcs-erulin_t\strtok\strtok\obj\Debug\strtok.pdb
+C:\Users\epita\Documents\prog\tps\TP C# 9\erulin_t\strtok\strtok\bin\Debug\strtok.exe.config
+C:\Users\epita\Documents\prog\tps\TP C# 9\erulin_t\strtok\strtok\obj\Debug\strtok.exe
+C:\Users\epita\Documents\prog\tps\TP C# 9\erulin_t\strtok\strtok\obj\Debug\strtok.pdb
