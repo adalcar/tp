@@ -47,8 +47,7 @@ namespace tiny42sh
                     k = execute_rm(cmd);
                     break;
                 case Keyword.rmdir:
-                    if (k != 0)
-                        Console.WriteLine("rmdir: {0}: {1}", cmd[1], errors[k]);
+                    k = execute_rmdir(cmd);
                     break;
                 case Keyword.touch:
                     k = execute_touch(cmd);
@@ -91,14 +90,11 @@ namespace tiny42sh
             if (Directory.Exists(entry))
                 foreach (string s in Directory.EnumerateFileSystemEntries(entry))
                 {
-
-                    
                     if(Directory.Exists(s))
                         Console.WriteLine(Path.GetFileName(s) + "/");
                     else
                         Console.WriteLine(Path.GetFileName(s));
                 }
-
             else
                 if (File.Exists(entry))
                     Console.WriteLine(entry);
@@ -107,6 +103,7 @@ namespace tiny42sh
             return 0;
 
         }
+
         private static int execute_ls(string[] cmd)
         {
             int k = 0;
@@ -185,7 +182,11 @@ namespace tiny42sh
                         if (Directory.Exists(cmd[i]))
                             Directory.SetLastAccessTime(cmd[i], DateTime.Now);
                         else
-                            File.Create(cmd[i]);
+                        {
+                            FileStream f  = File.Create(cmd[i]);
+                            f.Close();
+                        }
+                            
                 }
             return 0;
         }
@@ -204,6 +205,27 @@ namespace tiny42sh
                         return 1;
             return 0;
             
+        }
+
+        private static int execute_rmdir(string[] cmd)
+        {
+            if (cmd.Length != 2)
+                return 4;
+            else
+                if (File.Exists(cmd[1]))
+                {
+                    Console.WriteLine("rmdir: {0}:" + errors[3], cmd[1]);
+                }
+                else
+                    if (Directory.Exists(cmd[1]))
+                        if (Directory.EnumerateFileSystemEntries(cmd[1]).Count() != 0)
+                            Console.WriteLine("rmdir: {0}: not an empty directory", cmd[1]);
+                        else
+                            Directory.Delete(cmd[1]);
+                    else
+                        return 1;
+            return 0;
+
         }
         #endregion
     }
