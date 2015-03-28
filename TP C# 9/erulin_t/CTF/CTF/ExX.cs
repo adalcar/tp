@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace strtok
+namespace CTF
 {
     abstract class ExX
     {
         #region attributes
-        public string name { public get; private set; }
+        public string name { get;  private set; }
         #endregion
 
         #region Constructors

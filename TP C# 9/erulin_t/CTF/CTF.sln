@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strtok", "strtok\strtok.csproj", "{DA38DACD-BEE8-445A-891E-E21274F3C10D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTF", "CTF\CTF.csproj", "{DA38DACD-BEE8-445A-891E-E21274F3C10D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

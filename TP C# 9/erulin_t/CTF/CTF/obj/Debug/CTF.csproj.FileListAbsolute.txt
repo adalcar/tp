@@ -1,0 +1,6 @@
+C:\Users\Tancrede\Documents\programmation\tp\TP C# 9\erulin_t\CTF\CTF\bin\Debug\strtok.exe.config
+C:\Users\Tancrede\Documents\programmation\tp\TP C# 9\erulin_t\CTF\CTF\obj\Debug\strtok.exe
+C:\Users\Tancrede\Documents\programmation\tp\TP C# 9\erulin_t\CTF\CTF\obj\Debug\strtok.pdb
+C:\Users\Tancrede\Documents\programmation\tp\TP C# 9\erulin_t\CTF\CTF\bin\Debug\strtok.exe
+C:\Users\Tancrede\Documents\programmation\tp\TP C# 9\erulin_t\CTF\CTF\bin\Debug\strtok.pdb
+C:\Users\Tancrede\Documents\programmation\tp\TP C# 9\erulin_t\CTF\CTF\obj\Debug\CTF.csprojResolveAssemblyReference.cache

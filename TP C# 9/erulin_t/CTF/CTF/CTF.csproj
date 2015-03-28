@@ -7,7 +7,7 @@
     <ProjectGuid>{DA38DACD-BEE8-445A-891E-E21274F3C10D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>strtok</RootNamespace>
+    <RootNamespace>CTF</RootNamespace>
     <AssemblyName>strtok</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -42,6 +42,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Client.cs" />
+    <Compile Include="Ex0.cs" />
+    <Compile Include="Ex1.cs" />
+    <Compile Include="Ex2.cs" />
+    <Compile Include="Ex3.cs" />
+    <Compile Include="Ex4.cs" />
+    <Compile Include="Ex5.cs" />
+    <Compile Include="Ex6.cs" />
+    <Compile Include="Ex7.cs" />
+    <Compile Include="ExA.cs" />
+    <Compile Include="ExB.cs" />
     <Compile Include="ExX.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
