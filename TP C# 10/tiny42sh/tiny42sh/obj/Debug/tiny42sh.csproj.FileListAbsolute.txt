@@ -1,6 +1,0 @@
-C:\Users\epita\Documents\prog\tps\tp\TP C# 10\tiny42sh\tiny42sh\bin\Debug\tiny42sh.exe.config
-C:\Users\epita\Documents\prog\tps\tp\TP C# 10\tiny42sh\tiny42sh\obj\Debug\tiny42sh.csprojResolveAssemblyReference.cache
-C:\Users\epita\Documents\prog\tps\tp\TP C# 10\tiny42sh\tiny42sh\bin\Debug\tiny42sh.exe
-C:\Users\epita\Documents\prog\tps\tp\TP C# 10\tiny42sh\tiny42sh\bin\Debug\tiny42sh.pdb
-C:\Users\epita\Documents\prog\tps\tp\TP C# 10\tiny42sh\tiny42sh\obj\Debug\tiny42sh.exe
-C:\Users\epita\Documents\prog\tps\tp\TP C# 10\tiny42sh\tiny42sh\obj\Debug\tiny42sh.pdb

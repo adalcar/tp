@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Diagnostics;
 
 namespace tiny42sh
 {
@@ -30,18 +31,18 @@ namespace tiny42sh
                     break;
                 case Keyword.cd:
                     k = execute_cd(cmd);
-                    if(k != 0)
-                        Console.WriteLine("cd: {0}: {1}" ,cmd[1],errors[k]);
                     break;
                 case Keyword.clear:
+                    k = execute_clear(cmd);
                     break;
                 case Keyword.ls:
                     k = execute_ls(cmd);
                     break;
                 case Keyword.mkdir:
-
+                    k = execute_mkdir(cmd);
                     break;
                 case Keyword.pwd:
+                    k = execute_pwd(cmd);
                     break;
                 case Keyword.rm:
                     k = execute_rm(cmd);
@@ -56,6 +57,10 @@ namespace tiny42sh
                     Console.WriteLine("Unknown command: " + cmd[0]);
                     break;
                 case Keyword.whoami:
+                    k = execute_whoami(cmd);
+                    break;
+                case Keyword.run:
+                    k = execute_run(cmd);
                     break;
                 case Keyword.crash:
                     break;
@@ -64,7 +69,7 @@ namespace tiny42sh
                 if (k == 4)
                     Console.Write(cmd[0] + ": " + errors[k]);
                 else
-                    Console.WriteLine("rm: {0}: {1}", cmd[1], errors[k]);
+                    Console.WriteLine(cmd[0] + ": {0}: {1}", cmd[1], errors[k]);
             return 0;
         }
 
@@ -226,6 +231,57 @@ namespace tiny42sh
                         return 1;
             return 0;
 
+        }
+
+        private static int execute_mkdir(string[] cmd)
+        {
+            if (cmd.Length != 2)
+                return 4;
+            if (File.Exists(cmd[1]))
+                Console.WriteLine("mkdir: {0}: File already exists", cmd[1]);
+            else if (Directory.Exists(cmd[1]))
+                Console.WriteLine("mkdir: {0}: Directory already exists", cmd[1]);
+            else
+                Directory.CreateDirectory(cmd[1]);
+            return 0;
+
+        }
+
+        private static int execute_pwd(string[] cmd)
+        {
+            if (cmd.Length != 1)
+                return 4;
+            else
+                Console.WriteLine(Directory.GetCurrentDirectory());
+            return 0;
+        }
+
+        private static int execute_whoami(string[] cmd)
+        {
+            Console.WriteLine("ACDC 2019 -- Adalcar");
+            return 0;
+        }
+
+        private static int execute_run(string[] cmd)
+        {
+            if (cmd.Length != 2)
+                return 4;
+            else
+            {
+                if (Directory.Exists(cmd[1]))
+                    return 3;
+                if (!File.Exists(cmd[1]))
+                    return 1;
+                else
+                    Process.Start(cmd[1]);
+            }
+            return 0;
+        }
+
+        private static int execute_clear(string[] cmd)
+        {
+            Console.Clear();
+            return 0;
         }
         #endregion
     }

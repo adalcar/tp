@@ -1,0 +1,1 @@
+C:\Users\Tancrede\Documents\programmation\tp\TP C# 11\erulin_t\Sudoku\Sudoku\bin\Debug\Sudoku.exe.config

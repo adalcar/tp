@@ -20,6 +20,7 @@ namespace tiny42sh
         whoami,
         unknown,
         crash,
+        run,
     }
 
 
@@ -28,13 +29,6 @@ namespace tiny42sh
         public static string[][] parse_input(string input)
         {
             string[][] ret;
-            if (input[input.Length - 1] != ';')
-            {
-                Console.WriteLine("Error: invalid input: must end with ';'");
-                ret = new string[1][];
-                ret[0] = new string[1] { "crash" };
-                return ret;
-            }
             int a = 0;
             int b = 0;
             int c = 0;
@@ -58,6 +52,8 @@ namespace tiny42sh
                     c++;
 
             }
+            if (b != 0 || c != 0) 
+                a++;
             #endregion
             ret = new string[a][];
 
@@ -74,7 +70,7 @@ namespace tiny42sh
                         c = 0;
                         b++;
                     }
-                    if (input[k] == ';' && (c != 0 || b != 0))
+                    if (input[k] == ';')
                     {
                         ret[a++] = new string[++b];
                         b = 0;
@@ -83,7 +79,18 @@ namespace tiny42sh
                 }
                 if (input[k] != ';' && input[k] != ' ')
                     c++;
+                if(input[k] == ';' && b != 0)
+                {
+                        ret[a++] = new string[b];
+                        b = 0;
+                }
             }
+            if (b != 0 || c != 0)
+                if (c == 0)
+                    ret[a++] = new string[b];
+                else
+                    ret[a++] = new string[++b];
+                
             #endregion
 
             #region fillRet
@@ -102,7 +109,7 @@ namespace tiny42sh
                         s = "";
                         b++;
                     }
-                    if (input[k] == ';' && (b != 0 || s != ""))
+                    if (input[k] == ';')
                     {
                         ret[a][b] = s;
                         a++;
@@ -112,7 +119,14 @@ namespace tiny42sh
                 }
                 if (input[k] != ';' && input[k] != ' ')
                     s += input[k];
+                if (input[k] == ';' && b != 0)
+                {
+                    a++;
+                    b = 0;
+                }
             }
+            if(s != "")
+                ret[a][b] = s;
             #endregion
             return ret;
         }
