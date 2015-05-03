@@ -38,5 +38,93 @@ namespace Sudoku
             }
             return (days > 0);
         }
+
+        public static string Compression(string source)
+        {
+            List<string> dico = new List<string>();
+            string a = "";
+            string result = "";
+            Predicate<string> p = s => s == a;
+            for (int i = 0; i < source.Length; i++)
+            {
+                char c = source[i];
+                if (c == ' ' || c == '\n')
+                {
+                    if (dico.Exists(p))
+                    {
+                        int ind = dico.FindIndex(s => s == a) + 1;
+                        result += ind ;
+                        result += c;
+                    }
+
+                    else
+                    {
+                        dico.Add(a);
+                        result += a + c;
+                    }
+                    a = "";
+                }
+                else
+                    a += c; 
+                
+            }
+            if (dico.Exists(p))
+            {
+                int ind = dico.FindIndex(p) + 1;
+                result += ind.ToString();
+            }
+            else
+            {
+                dico.Add(a);
+                result += a;
+            }
+            return result;   
+        }
+        public static string Decompression(string source)
+        {
+            List<string> dico = new List<string>();
+            string result = "";
+            string a = "";
+            Predicate<string> p = s => s == a;
+            for (int i = 0; i < source.Length; i++)
+            {
+                char c = source[i];
+                if (c == ' ' || c == '\n')
+                {
+                    if (a != "")
+                    {
+                        int k;
+                        if (int.TryParse(a, out k))
+                        {
+                            if (k < dico.Count)
+                                a = dico[k];
+                        }
+                        else
+                            dico.Add(a);
+
+                        result += a;
+                        a = "";
+                    }
+                    result += c;
+                }
+                else
+                    a += c;
+            }
+            if (a != "")
+            {
+                int k;
+                if (int.TryParse(a, out k))
+                {
+                    if (k < dico.Count)
+                        a = dico[k];
+                }
+                else
+                    dico.Add(a);
+
+                result += a;
+                a = "";
+            }
+            return result;
+        }
     }
 }
