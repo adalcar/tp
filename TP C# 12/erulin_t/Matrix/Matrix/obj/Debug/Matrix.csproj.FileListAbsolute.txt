@@ -1,0 +1,6 @@
+D:\work\tp\TP C# 12\erulin_t\Matrix\Matrix\bin\Debug\Matrix.exe.config
+D:\work\tp\TP C# 12\erulin_t\Matrix\Matrix\bin\Debug\Matrix.exe
+D:\work\tp\TP C# 12\erulin_t\Matrix\Matrix\bin\Debug\Matrix.pdb
+D:\work\tp\TP C# 12\erulin_t\Matrix\Matrix\obj\Debug\Matrix.csprojResolveAssemblyReference.cache
+D:\work\tp\TP C# 12\erulin_t\Matrix\Matrix\obj\Debug\Matrix.exe
+D:\work\tp\TP C# 12\erulin_t\Matrix\Matrix\obj\Debug\Matrix.pdb
