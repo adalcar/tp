@@ -11,7 +11,7 @@ namespace Matrix
         public Node<T> node;
         public delegate int CompType(T a, T b);
         CompType c;
-        private delegate bool binfunc(ref Node<T> n, T val)
+        private delegate bool binfunc(ref Node<T> n, T val);
         public delegate void mapfunction(ref T elt);
 
 

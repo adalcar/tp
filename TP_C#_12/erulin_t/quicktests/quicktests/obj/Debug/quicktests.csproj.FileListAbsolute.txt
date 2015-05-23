@@ -1,0 +1,5 @@
+D:\work\tp\TP C# 12\erulin_t\quicktests\quicktests\bin\Debug\quicktests.exe.config
+D:\work\tp\TP C# 12\erulin_t\quicktests\quicktests\bin\Debug\quicktests.exe
+D:\work\tp\TP C# 12\erulin_t\quicktests\quicktests\bin\Debug\quicktests.pdb
+D:\work\tp\TP C# 12\erulin_t\quicktests\quicktests\obj\Debug\quicktests.exe
+D:\work\tp\TP C# 12\erulin_t\quicktests\quicktests\obj\Debug\quicktests.pdb

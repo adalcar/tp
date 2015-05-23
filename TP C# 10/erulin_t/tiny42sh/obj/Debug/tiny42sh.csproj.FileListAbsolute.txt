@@ -1,1 +1,7 @@
 C:\Users\Tancrede\Documents\programmation\tp\TP C# 10\erulin_t\tiny42sh\bin\Debug\tiny42sh.exe.config
+D:\work\tp\TP C# 10\erulin_t\tiny42sh\bin\Debug\tiny42sh.exe.config
+D:\work\tp\TP C# 10\erulin_t\tiny42sh\bin\Debug\tiny42sh.exe
+D:\work\tp\TP C# 10\erulin_t\tiny42sh\bin\Debug\tiny42sh.pdb
+D:\work\tp\TP C# 10\erulin_t\tiny42sh\obj\Debug\tiny42sh.csprojResolveAssemblyReference.cache
+D:\work\tp\TP C# 10\erulin_t\tiny42sh\obj\Debug\tiny42sh.exe
+D:\work\tp\TP C# 10\erulin_t\tiny42sh\obj\Debug\tiny42sh.pdb
