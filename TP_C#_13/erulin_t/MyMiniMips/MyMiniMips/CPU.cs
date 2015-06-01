@@ -9,7 +9,7 @@ namespace MyMiniMips
 {
     class CPU
     {
-        public byte[] ram = new byte[0x1000];
+        public byte[] ram;
         public int[] registres = new int[32];
         public int program_counter, filesize;
         public CPU(string fileName)
@@ -23,8 +23,8 @@ namespace MyMiniMips
             if (File.Exists(fileName))
             {
                 ram = File.ReadAllBytes(fileName);
-                FileInfo f = new FileInfo(fileName);
-                filesize = (int)f.Length;
+                filesize = ram.Length;
+                Array.Resize<byte>(ref ram, 0x10000);
             }
             else
                 Console.Write("ERROR: file does not exist!");

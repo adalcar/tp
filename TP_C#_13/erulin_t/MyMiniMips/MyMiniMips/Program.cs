@@ -10,7 +10,10 @@ namespace MyMiniMips
     {
         static void Main(string[] args)
         {
-            CPU c = new CPU("#lol");
+            CPU c = new CPU("fibo.s");
+            ALU a = new ALU(c);
+            a.run();
+            Console.Read();
         }
     }
 }

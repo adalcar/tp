@@ -1,0 +1,4 @@
+Le programme cree une matrice de matrices de matrices d'entiers, qu'il initialise donc en la remplissant de matrices de matrices d'entiers, elles memes remplies de matrices remplies de 5, et la nomme matrix5.
+il fait de meme avec des 3
+
+en soustratyant ces matrices ensemble, il en obtient donc une remplie de 2.

@@ -1,6 +1,0 @@
-D:\work\tp\TP C# 12\erulin_t\MyMiniMips\MyMiniMips\bin\Debug\MyMiniMips.exe.config
-D:\work\tp\TP C# 12\erulin_t\MyMiniMips\MyMiniMips\bin\Debug\MyMiniMips.exe
-D:\work\tp\TP C# 12\erulin_t\MyMiniMips\MyMiniMips\bin\Debug\MyMiniMips.pdb
-D:\work\tp\TP C# 12\erulin_t\MyMiniMips\MyMiniMips\obj\Debug\MyMiniMips.csprojResolveAssemblyReference.cache
-D:\work\tp\TP C# 12\erulin_t\MyMiniMips\MyMiniMips\obj\Debug\MyMiniMips.exe
-D:\work\tp\TP C# 12\erulin_t\MyMiniMips\MyMiniMips\obj\Debug\MyMiniMips.pdb

@@ -20,7 +20,7 @@ namespace MyMiniMips
         }
         public void Exec(Instruction i)
         {
-            Console.Write("[my_minimips] Executing pc = {0}: {1}: ", cpu.program_counter.ToString("X8"), i.ins.ToString("X8"));
+            Console.Write("[my_minimips] Executing pc = 0x{0}: 0x{1}: ", cpu.program_counter.ToString("X8"), i.ins.ToString("X8"));
             switch (i.Op)
             {
                 case 0:
@@ -71,7 +71,7 @@ namespace MyMiniMips
                             break;
                         case 34:
                             //sub
-                            Console.Write("add r{0}, r{1}, r{2} \n", i.Rd, i.Rs, i.Rt);
+                            Console.Write("sub r{0}, r{1}, r{2} \n", i.Rd, i.Rs, i.Rt);
                             cpu.registres[i.Rd] = cpu.registres[i.Rs] - cpu.registres[i.Rt];
                             break;
                     }
@@ -80,13 +80,13 @@ namespace MyMiniMips
                 #region I instructions
                 case 8:
                     //addi
-                    Console.Write("addi r{0}, r{1}, {2} \n", i.Rt, i.Rs, i.Imm);
-                    cpu.registres[i.Rt] = cpu.registres[i.Rs] + ((i.Imm << 16) >> 16);
+                    Console.Write("addi r{0}, r{1}, {2} \n", i.Rt, i.Rs, (short)i.Imm);
+                    cpu.registres[i.Rt] = cpu.registres[i.Rs] + (short)(i.Imm);
                     break;
                 case 33:
                     //addiu
-                    Console.Write("addiu r{0}, r{1}, {2} \n", i.Rt, i.Rs, i.Imm);
-                    cpu.registres[i.Rt] = (int)((uint)cpu.registres[i.Rs] + (uint)((i.Imm << 16) >> 16));
+                    Console.Write("addiu r{0}, r{1}, {2} \n", i.Rt, i.Rs, (short)i.Imm);
+                    cpu.registres[i.Rt] = (int)((uint)cpu.registres[i.Rs] + (short)i.Imm);
                     break;
                 case 34:
                     //ori
@@ -97,28 +97,31 @@ namespace MyMiniMips
                     //beq
                     Console.Write("beq r{0}, r{1}, {2} \n", i.Rt, i.Rs, i.Imm);
                     if (cpu.registres[i.Rs] == cpu.registres[i.Rt])
-                        cpu.program_counter  = cpu.program_counter + 4 +  i.Imm;
+                        cpu.program_counter  = cpu.program_counter +  i.Imm;
                     break;
                 case 5:
                     //bne
                     Console.Write("bne r{0}, r{1}, {2} \n", i.Rt, i.Rs, i.Imm);
                         if (cpu.registres[i.Rs] != cpu.registres[i.Rt])
-                            cpu.program_counter  = cpu.program_counter + 4 +  i.Imm;
+                            cpu.program_counter  = cpu.program_counter + i.Imm;
                     break;
                 #endregion
                 #region J instructions
                 case 2:
                     //j
-                    Console.Write("j {0} \n", i.Addr.ToString("X8"));
+                    Console.Write("j 0x{0} \n", i.Addr.ToString("X8"));
                     cpu.program_counter = i.Addr;
                     break;
                 case 3:
                     //jal
-                    Console.Write("jal {0} \n", i.Addr.ToString("X8"));
+                    Console.Write("jal 0x{0} \n", i.Addr.ToString("X8"));
                     cpu.registres[ra] = cpu.program_counter + 8;
                     cpu.program_counter = i.Addr;
                     break;
                 #endregion
+                default:
+                    Console.Write("error! instruction unknown \n");
+                    break;
             }
 
         }
@@ -127,9 +130,9 @@ namespace MyMiniMips
             while (cpu.program_counter < cpu.filesize)
             {
                 int c = cpu.program_counter;
-                Instruction i = new Instruction(cpu.ram[c] << 24 + cpu.ram[c + 1] << 16 + cpu.ram[c + 2] << 8 + cpu.ram[c + 3]);
-                if (cpu.program_counter == c)
-                    cpu.program_counter += 4;
+                Instruction i = new Instruction((cpu.ram[c] << 24) + (cpu.ram[c + 1] << 16) + (cpu.ram[c + 2] << 8) + cpu.ram[c + 3]);
+                Exec(i);
+                cpu.program_counter += 4;
             }
         }
     }
