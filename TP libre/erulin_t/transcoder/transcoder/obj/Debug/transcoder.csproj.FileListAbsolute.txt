@@ -1,0 +1,6 @@
+C:\Users\Tancrede\Documents\programmation\tp\TP libre\erulin_t\transcoder\transcoder\bin\Debug\transcoder.exe.config
+C:\Users\Tancrede\Documents\programmation\tp\TP libre\erulin_t\transcoder\transcoder\bin\Debug\transcoder.exe
+C:\Users\Tancrede\Documents\programmation\tp\TP libre\erulin_t\transcoder\transcoder\bin\Debug\transcoder.pdb
+C:\Users\Tancrede\Documents\programmation\tp\TP libre\erulin_t\transcoder\transcoder\obj\Debug\transcoder.csprojResolveAssemblyReference.cache
+C:\Users\Tancrede\Documents\programmation\tp\TP libre\erulin_t\transcoder\transcoder\obj\Debug\transcoder.exe
+C:\Users\Tancrede\Documents\programmation\tp\TP libre\erulin_t\transcoder\transcoder\obj\Debug\transcoder.pdb

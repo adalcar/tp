@@ -1,0 +1,7 @@
+Ce TP n'est pas tres elabore compare a celui propose, sur lequel je travaillerai pendant ces vacances.
+il s'agit de faire un traducteur en differents langages de "cryptage"
+projet initialement lance pour aider un de mes amis chef de troupe scout avec ses ordres de mission
+cette version est tres simple, mais il y a deja trois tyypes de cryptage, et je conte en rajouter.
+l'utilisation de filestreams et de fonctions delegates /anonymes est egalement notable.
+etant donne a quel point celui-ci est bacle, je n'attends pas une bonne note, c'est juste pour montrer une
+application utile de mes connaissances en c#.
